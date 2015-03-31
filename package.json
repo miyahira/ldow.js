@@ -1,0 +1,15 @@
+{
+  "name": "qjob",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "cwapi": "git+ssh://git@github.com:miyahira/cwapi.git",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
