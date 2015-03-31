@@ -14,13 +14,13 @@ cwapi.getRooms(function(data, res){
   rooms = _.map(rooms, function(member){
     return _.pick(member, ["room_id", "name"])
   })
-  console.log(rooms)
+  //console.log(rooms)
 
   //leave all rooms
-//  _.each(rooms, function(room){
-//    cwapi.leaveRoom(room.room_id, function(data, res){
-//      console.log(room + " 退出完了")
-//    })
-//  })
+  _.each(rooms, function(room){
+    cwapi.leaveRoom(room.room_id, function(data, res){
+      console.log(room + " 退出完了")
+    })
+  })
 
 })
