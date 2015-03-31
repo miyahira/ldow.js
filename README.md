@@ -1,5 +1,7 @@
-# qjob
+# ldow.js
 Simple script to leave all rooms in Chatwork. It's awsome when you quit your job.
+
+__L__ ast __D__ ay __O__ f __W__ ork.js
 
 ## Usage
 
@@ -11,5 +13,5 @@ npm install
 vim config.js
 
 # Execute
-node qjob.js
+node ldow.js
 ```
